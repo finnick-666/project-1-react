@@ -1,0 +1,82 @@
+#Resume
+{
+    margin-top: 50px;
+    span
+    {
+        padding: 10px 20px 10px 20px;
+    }
+    hr
+    {
+        border-width: 2px;
+        margin-top: 6px;
+    }
+
+
+.timeline
+{
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+    .box-area
+    {
+        display: -webkit-flex;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        width: 100%;
+        .time
+        {
+            display: -webkit-flex;
+            display: flex;
+            background: linear-gradient(to right,#CCC 45%,rgb(27, 246, 253) 45%,rgb(27, 246, 253) 45%,#CCC 50%);
+            order: 2;
+            text-align: center;
+            flex-basis: 100px;
+            font-size: 28px;
+            color: #fff;
+            span
+            {
+                font-size: 20px;
+                padding: 10px;
+                margin: auto;
+                background: #000;
+            }
+        }
+        .content
+        {
+            text-align: center;
+            padding: 20px;
+            border-radius: 25px;
+            color: #fff;
+            order: 3;
+            width: 80%;
+            padding-left: 10px;
+            background: rgb(27, 246, 253);
+            margin-bottom: 3%;
+            h3
+            {
+                margin: 5px;
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 640px)
+{
+    .timeline .box-area .content,
+    .timeline .box{
+        width: 40%;
+    }
+    .timeline .box-right .content{
+        order: 1;
+        padding-right: 10px;
+        border-radius: 25px;
+    }
+    .timeline .box-right .box{
+        order: 3;
+    }
+}
+}

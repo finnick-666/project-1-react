@@ -1,0 +1,25 @@
+#About
+{
+    margin-top: 50px;
+    .card
+    {
+        border-radius: 25px;
+        background-color: rgb(27, 196, 35);
+        .card-footer {
+            border-radius: 25px;
+        }
+    }
+    .fa
+    {
+        color: white;
+    }
+    span
+    {
+        padding: 10px 20px 10px 20px;
+    }
+    hr
+    {
+        margin-top: 6px;
+        border-width: 2px;
+    }
+}

@@ -1,0 +1,21 @@
+#Home {
+    background-image: url(../asset/bg-img.jpg);
+    background-size: cover;
+    min-height: 800px;
+
+    .welcomePage {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 800px;
+        height: 1000px;
+        h1 {
+            margin: 0 20px;
+            font-size: 50px;
+        }
+        #clock {
+            font-size: 30px;
+        }
+    }
+}
