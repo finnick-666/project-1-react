@@ -8,11 +8,11 @@ let contactPage
 let allPages
 
 function init() {
-    allPages = document.querySelectorAll('main > section')
-    homePage = document.querySelector('main > section[id = "Home"]')
-    aboutPage = document.querySelector('main > section[id = "About"]')
-    skillsPage = document.querySelector('main > section[id = "Skills"]')
-    resumePage = document.querySelector('main > section[id = "Resume"]')
+    allPages = document.querySelectorAll('section')
+    homePage = document.querySelector('section[id = "Home"]')
+    aboutPage = document.querySelector('section[id = "About"]')
+    skillsPage = document.querySelector('section[id = "Skills"]')
+    resumePage = document.querySelector('section[id = "Resume"]')
     hideAllPages()
     showHomePage()
 }

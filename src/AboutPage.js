@@ -17,6 +17,7 @@ const AboutMePage = () => (
                                         <p className="text-muted ml-5">Programmer</p>
                                         <div className="container">
                                             <table className="table table-responsive ml-4">
+                                                <tbody>
                                                 <tr>
                                                     <td className="text-muted">Age</td>
                                                     <td>:</td>
@@ -32,6 +33,7 @@ const AboutMePage = () => (
                                                     <td>:</td>
                                                     <td>11111111111</td>
                                                 </tr>
+                                                </tbody>
                                             </table>
                                         </div>
                                     </div>
