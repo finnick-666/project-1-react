@@ -1,0 +1,133 @@
+#Header a:hover {
+  color: #02f4fc;
+}
+
+#About {
+  margin-top: 50px;
+}
+#About .card {
+  border-radius: 25px;
+  background-color: #1bc423;
+}
+#About .card .card-footer {
+  border-radius: 25px;
+}
+#About .fa {
+  color: white;
+}
+#About span {
+  padding: 10px 20px 10px 20px;
+}
+#About hr {
+  margin-top: 6px;
+  border-width: 2px;
+}
+
+#Resume {
+  margin-top: 50px;
+}
+#Resume span {
+  padding: 10px 20px 10px 20px;
+}
+#Resume hr {
+  border-width: 2px;
+  margin-top: 6px;
+}
+#Resume .timeline {
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 0 auto;
+}
+#Resume .timeline .box-area {
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  width: 100%;
+}
+#Resume .timeline .box-area .time {
+  display: -webkit-flex;
+  display: flex;
+  background: linear-gradient(to right, #CCC 45%, #1bf6fd 45%, #1bf6fd 45%, #CCC 50%);
+  order: 2;
+  text-align: center;
+  flex-basis: 100px;
+  font-size: 28px;
+  color: #fff;
+}
+#Resume .timeline .box-area .time span {
+  font-size: 20px;
+  padding: 10px;
+  margin: auto;
+  background: #000;
+}
+#Resume .timeline .box-area .content {
+  text-align: center;
+  padding: 20px;
+  border-radius: 25px;
+  color: #fff;
+  order: 3;
+  width: 80%;
+  padding-left: 10px;
+  background: #1bf6fd;
+  margin-bottom: 3%;
+}
+#Resume .timeline .box-area .content h3 {
+  margin: 5px;
+  font-size: 14px;
+}
+@media screen and (min-width: 640px) {
+  #Resume .timeline .box-area .content,
+#Resume .timeline .box {
+    width: 40%;
+  }
+  #Resume .timeline .box-right .content {
+    order: 1;
+    padding-right: 10px;
+    border-radius: 25px;
+  }
+  #Resume .timeline .box-right .box {
+    order: 3;
+  }
+}
+
+#Skills span {
+  padding: 10px 20px 10px 20px;
+}
+#Skills hr {
+  border-width: 2px;
+  margin-top: 6px;
+}
+
+#Home {
+  background-image: url(../asset/bg-img.jpg);
+  background-size: cover;
+  min-height: 800px;
+}
+#Home .welcomePage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 800px;
+  height: 1000px;
+}
+#Home .welcomePage h1 {
+  margin: 0 20px;
+  font-size: 50px;
+}
+#Home .welcomePage #clock {
+  font-size: 30px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #CCC;
+}
+
+/*# sourceMappingURL=index.css.map */
